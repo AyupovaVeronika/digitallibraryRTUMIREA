@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_register"
+    app:startDestination="@id/vhodFragment">
+
+    <fragment
+        android:id="@+id/forgotFragment"
+        android:name="com.example.digitallibrary.register.ForgotFragment"
+        android:label="ForgotFragment" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.digitallibrary.register.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_vhodFragment"
+            app:destination="@id/vhodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vhodFragment"
+        android:name="com.example.digitallibrary.register.VhodFragment"
+        android:label="fragment_vhod"
+        tools:layout="@layout/fragment_vhod" >
+        <action
+            android:id="@+id/action_vhodFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_vhodFragment_to_forgotFragment"
+            app:destination="@id/forgotFragment" />
+    </fragment>
+</navigation>

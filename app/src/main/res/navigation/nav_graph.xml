@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainMenuOfflineFragment">
+    <fragment
+        android:id="@+id/mainMenuOfflineFragment"
+        android:name="com.example.digitallibrary.offline.MainMenuOfflineFragment"
+        android:label="fragment_main_menu_offline"
+        tools:layout="@layout/fragment_main_menu_offline" >
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_manualFragment"
+            app:destination="@id/manualFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_aboutAppFragment"
+            app:destination="@id/aboutAppFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_archivFragment"
+            app:destination="@id/archivFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_bookmarkFragment"
+            app:destination="@id/bookmarkFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_choiceFragment"
+            app:destination="@id/choiceFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_importWorkFragment"
+            app:destination="@id/importWorkFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_likeFragment"
+            app:destination="@id/likeFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_newWorkFragment"
+            app:destination="@id/newWorkFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+        <action
+            android:id="@+id/action_mainMenuOfflineFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manualFragment"
+        android:name="com.example.digitallibrary.offline.ManualFragment"
+        android:label="fragment_manual"
+        tools:layout="@layout/fragment_manual" />
+    <fragment
+        android:id="@+id/aboutAppFragment"
+        android:name="com.example.digitallibrary.fragment.AboutAppFragment"
+        android:label="fragment_about_app"
+        tools:layout="@layout/fragment_about_app" />
+    <fragment
+        android:id="@+id/archivFragment"
+        android:name="com.example.digitallibrary.fragment.ArchivFragment"
+        android:label="fragment_archiv"
+        tools:layout="@layout/fragment_archiv" />
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.example.digitallibrary.fragment.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="com.example.digitallibrary.fragment.ChoiceFragment"
+        android:label="fragment_choice"
+        tools:layout="@layout/fragment_choice" />
+    <fragment
+        android:id="@+id/importWorkFragment"
+        android:name="com.example.digitallibrary.fragment.ImportWorkFragment"
+        android:label="fragment_import_work"
+        tools:layout="@layout/fragment_import_work" />
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="com.example.digitallibrary.fragment.LikeFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like" />
+    <fragment
+        android:id="@+id/newWorkFragment"
+        android:name="com.example.digitallibrary.fragment.NewWorkFragment"
+        android:label="fragment_new_work"
+        tools:layout="@layout/fragment_new_work" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.digitallibrary.fragment.profile.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.digitallibrary.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

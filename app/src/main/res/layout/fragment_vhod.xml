@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".register.VhodFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="161dp"
+            android:layout_marginHorizontal="30dp"
+            app:cardCornerRadius="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@drawable/dark_grey_fill"
+                android:paddingBottom="49dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/lavender"
+                    android:text="ВХОД"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="52dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="49dp"
+                    android:layout_marginTop="58dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emailVhodText"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+
+                        android:hint="Почта"
+                        android:textSize="14sp"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/poloska_zapolneniya_text" />
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="49dp"
+                    android:layout_marginTop="31dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordVhodText"
+                        android:layout_width="match_parent"
+                        android:background="@android:color/transparent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:hint="Пароль"
+                        android:textSize="14sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/poloska_zapolneniya_text" />
+                <Button
+                    android:id="@+id/vhod_button"
+                    android:layout_width="174dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="28dp"
+                    android:gravity="center"
+                    android:text="Вход"
+                    android:textColor="@color/white"
+                    android:background="@drawable/lavender_fill"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/to_register_button"
+            android:layout_width="174dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="98dp"
+            android:gravity="center"
+            android:text="Регистрация"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/to_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Забыли пароль?"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/icon_profil"
+                android:title="Профиль"/>
+        </menu>
+
+    </item>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_main_menu_offline"
+            android:icon="@drawable/icon_home"
+            android:title="Главная"/>
+
+        <item
+            android:id="@+id/nav_new_work"
+            android:icon="@drawable/icon_plus"
+            android:title="Новая работа"/>
+
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/icon_like"
+            android:title="Понравившиеся"/>
+
+        <item
+            android:id="@+id/nav_archiv"
+            android:icon="@drawable/icon_package"
+            android:title="Архив"/>
+
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/icon_bookmark_mini"
+            android:title="Закладки"/>
+
+        <item
+            android:id="@+id/nav_choice"
+            android:icon="@drawable/icon_filtr"
+            android:title="Предпочтения"/>
+
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/icon_import"
+            android:title="Загрузить"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icon_info"
+            android:title="О приложении"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_setting"
+            android:title="Настройки"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_exit"
+                android:title="Выход"/>
+        </menu>
+
+    </item>
+
+</menu>

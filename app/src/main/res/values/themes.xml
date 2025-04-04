@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Светлая тема приложения -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorSecondary">@color/dark_grey</item>
+
+        <!-- Цвета текста -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/lavender</item>
+
+        <!-- Фон окон -->
+        <item name="android:windowBackground">@color/dark_grey</item>
+    </style>
+
+</resources>

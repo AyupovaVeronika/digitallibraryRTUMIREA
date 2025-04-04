@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "123360374229",
+    "firebase_url": "https://digitallibrary-ba739-default-rtdb.firebaseio.com",
+    "project_id": "digitallibrary-ba739",
+    "storage_bucket": "digitallibrary-ba739.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123360374229:android:2ed803aa76c73afdd1615c",
+        "android_client_info": {
+          "package_name": "com.example.digitallibrary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSu0zkonQaVkK2-HstygUw4xN_Z3YUsH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
