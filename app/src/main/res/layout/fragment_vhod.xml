@@ -32,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:fontFamily="@font/Montserrat_Bold"
+                    android:fontFamily="@font/montserrat_bold"
                     android:textColor="@color/lavender"
                     android:text="ВХОД"
                     android:letterSpacing="0.14"
@@ -42,6 +42,8 @@
 
                 <ImageView
                     android:layout_marginTop="58dp"
+
+                    android:layout_marginHorizontal="52dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/poloska_zapolneniya_text" />
@@ -49,40 +51,40 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="49dp"
+                    android:layout_marginHorizontal="52dp"
                     android:layout_marginTop="5dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/emailVhodText"
                         android:background="@android:color/transparent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="top"
                         android:hint="Почта"
-                        android:textColorHint="#49454F"
+                        android:textColorHint="@color/hint"
                         android:textSize="14dp"/>
 
                 </com.google.android.material.textfield.TextInputLayout>
-
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="52dp"
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/poloska_zapolneniya_text" />
 
                 <com.google.android.material.textfield.TextInputLayout
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="49dp"
-                    android:layout_marginTop="31dp">
+                    android:layout_marginHorizontal="52dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/passwordVhodText"
                         android:layout_width="match_parent"
                         android:background="@android:color/transparent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_marginTop="5dp"
                         android:hint="Пароль"
                         android:textSize="14sp"/>
                 </com.google.android.material.textfield.TextInputLayout>
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/poloska_zapolneniya_text" />
+
                 <Button
                     android:id="@+id/vhod_button"
                     android:layout_width="174dp"
