@@ -16,7 +16,8 @@
             android:layout_height="match_parent"
             android:text="профиль"
             android:textSize="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold">
 
         </TextView>
     </LinearLayout>
