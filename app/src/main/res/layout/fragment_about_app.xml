@@ -6,13 +6,46 @@
     tools:context=".fragment.AboutAppFragment"
     android:background="@drawable/background">
 
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="О приложении">
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@color/dark_grey"
+            android:text="о приложении"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:fontFamily="@font/Montserrat_Bold">
+        </TextView>
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="19dp"
+            android:background="@mipmap/icon_app"
+            android:layout_gravity="center">
+        </ImageView>
 
-    </TextView>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/Montserrat_Bold"
+            android:gravity="center_horizontal"
+            android:text="Цифровая библиотека"
+            android:textSize="24dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/Montserrat_Medium"
+            android:gravity="center_horizontal"
+            android:text="Приложение для работы с текстовыми файлами"
+            android:textSize="12dp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    </LinearLayout>
 </FrameLayout>
