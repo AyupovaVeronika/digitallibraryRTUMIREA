@@ -17,7 +17,7 @@
             android:text="о приложении"
             android:gravity="center"
             android:textSize="24dp"
-            android:fontFamily="@font/montserrat_bold">
+            android:fontFamily="@font/montserrat_bold_bold">
         </TextView>
         <ImageView
             android:layout_width="177dp"
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="19dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/montserrat_bold_bold"
             android:gravity="center_horizontal"
             android:text="Цифровая библиотека"
             android:textSize="24dp">
@@ -39,7 +39,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/montserrat_bold_bold"
             android:gravity="center_horizontal"
             android:text="Приложение для работы с текстовыми файлами"
             android:textSize="12dp">
@@ -56,7 +56,7 @@
                 android:textSize="12dp"
                 android:textColor="@color/white"
                 android:text="Версия 0.0.0"
-                android:fontFamily="@font/montserrat_bold">
+                android:fontFamily="@font/montserrat_bold_bold">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                 android:textSize="12dp"
                 android:textColor="@color/white"
                 android:text="Разработчик: Аюпова Вероника"
-                android:fontFamily="@font/montserrat_bold">
+                android:fontFamily="@font/montserrat_bold_bold">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                 android:textSize="12dp"
                 android:textColor="@color/white"
                 android:text="Художник: Руфова Анастасия"
-                android:fontFamily="@font/montserrat_bold">
+                android:fontFamily="@font/montserrat_bold_bold">
             </TextView>
         </LinearLayout>
         <TextView
@@ -83,7 +83,7 @@
             android:textColor="@color/white"
             android:gravity="center"
             android:text="Политика конфиденциальности"
-            android:fontFamily="@font/montserrat_medium">
+            android:fontFamily="@font/montserrat_medium_medium">
         </TextView>
     </LinearLayout>
 </FrameLayout>
