@@ -6,31 +6,22 @@
     tools:context=".fragment.profile.ProfilFragment"
     android:background="@drawable/background"
     android:orientation="vertical">
-
-
-    <TextView
-        android:layout_marginTop="30dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Профиль"
-        android:textSize="30dp">
-
-    </TextView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:background="@drawable/black50_fill"
-            android:id="@+id/fragmentContainerAcount"
+        android:layout_height="53dp"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center">
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
-            android:padding="50dp">
+            android:text="профиль"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold">
 
-        </androidx.fragment.app.FragmentContainerView>
-    </ScrollView>
+        </TextView>
+    </LinearLayout>
+    
 
 
 </LinearLayout>
